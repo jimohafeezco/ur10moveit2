@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur">
+    <!-- <xacro:arg name="initial_positions_file" default="initial_positions.yaml" /> -->
+
+    <!-- Import ur urdf file -->
+    <xacro:include filename="$(find ur10_simulation)/urdf/ur10_camera_gripper.urdf.xacro" />
+
+    <!-- Import control_xacro -->
+    <!-- <xacro:include filename="ur.ros2_control.xacro" />
+
+
+    <xacro:ur_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/> -->
+    <!-- <joint name="robotiq_85_left_finger_tip_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+    </joint>
+    <link name="random"/>
+    <joint name="robotiq_85_left_inner_knuckle_joint_mimic" type="fixed">
+        <parent link="random" />
+        <child link="random1" />
+    </joint>
+    <link name="random1"/>
+    <joint name="robotiq_85_left_knuckle_joint_mimic" type="fixed">
+        <parent link="random1" />
+        <child link="random2" />
+    </joint>
+    <link name="random2"/>
+    <joint name="robotiq_85_right_finger_tip_joint_mimic" type="fixed">
+        <parent link="random2" />
+        <child link="random3" />
+    </joint>
+    <link name="random3"/>
+    <joint name="robotiq_85_right_inner_knuckle_joint_mimic" type="fixed">
+        <parent link="random3" />
+        <child link="random4" />
+    </joint>
+    <link name="random4"/>
+    <joint name="robotiq_85_right_knuckle_joint_mimic" type="fixed">
+        <parent link="random4" />
+        <child link="random5" />
+    </joint>
+    <link name="random5"/> -->
+</robot>
