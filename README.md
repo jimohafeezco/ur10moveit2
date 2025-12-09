@@ -1,7 +1,7 @@
 # ROS2 UR5 + Robotiq 2F-85 Simulation Setup  
 Grasping workflow with LinkAttacher
 
-This project uses ROS2 Humble to simulate a UR5 robot with a Robotiq 2F-85 gripper. The setup includes Universal Robots simulation packages, Robotiq gripper support, and the IFRA LinkAttacher for attaching objects during grasping.
+This project uses ROS2 Humble to simulate a UR10 robot with a Robotiq 2F-85 gripper. The setup includes Universal Robots simulation packages, Robotiq gripper support, and the IFRA LinkAttacher for attaching objects during grasping.
 
 ---
 
