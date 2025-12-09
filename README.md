@@ -21,7 +21,6 @@ Clone the main simulation workspace:ur10_simulation
 
 ## Grasping Support (LinkAttacher)
 
-https://github.com/LearnRoboticsWROS/master_ws_ros2
 Clone this inside your `src` folder to enable simulated grasping and object attachment:
 
 https://github.com/UniversalRobots/Universal_Robots_ROS2_Description
