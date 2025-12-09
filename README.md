@@ -1,6 +1,6 @@
 # ROS2 UR5 + Robotiq 2F-85 Simulation Setup  
 
-![UR10 Pick and Place](pick_place.gif)
+![UR10 Pick and Place](pick_place_gif.gif)
 
 
 Grasping workflow with LinkAttacher
